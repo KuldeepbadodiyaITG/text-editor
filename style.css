@@ -1,0 +1,39 @@
+.main {
+            font-size: 30px;
+            text-align: center;
+            height: 70px;
+            font-style: italic;
+            color: floralwhite;
+        }
+
+        body {
+            background: url("https://media.licdn.com/dms/image/v2/D4D12AQG9zM_Vc3GH7Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1684212296992?e=2147483647&v=beta&t=fCKDnijzEGxctDsPVQ7LuHMrFrz3OM1tw-iNsz00ICA");
+        }
+
+       .text {
+    width: 500px;
+    height: 250px;
+    background: linear-gradient(90deg, #fdfdfd, #a4abdb);
+    font-size: 20px;
+}
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn {
+            background-color: linear-gradient(90deg, #8d6036, #bca4db);
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        .texttt {
+            margin-top: 50px;
+        }
+
+        .btn:hover {
+            background: linear-gradient(90deg, #0554e7, #dbc1a4);
+            transform: scale(1.05);
+        }

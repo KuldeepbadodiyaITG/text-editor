@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+
+    <div class="main">
+        Text Manipulation Web Tool Using HTML, CSS, and JavaScript
+    </div>
+
+    <div class="texttt">
+        <textarea class="text" id="area" placeholder="enter  text"></textarea>
+    </div>
+
+    <button onclick="updateText()">submit</button>
+
+    <p id="output"></p>
+
+
+    <div class="buttons">
+        <button onclick="textBold()" class="btn" id="btn1">Bold</button>
+        <button onclick=" textItalic()" class="btn" id="btn2">Italic</button>
+        <button onclick="textUppercase()" class="btn" id="btn3">Uppercase</button>
+        <button onclick="textLowercase()" class="btn" id="btn4">Lowercase</button>
+        <button onclick="Change_Text_Color()" class="btn" id="btn5">Change Text Color<input type="color"
+                id="color-input"></button>
+        <button onclick="Uppercase_Each_First_Letter()" class="btn" id="btn6">Uppercase Each First Letter</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
