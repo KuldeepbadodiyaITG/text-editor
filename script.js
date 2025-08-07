@@ -28,7 +28,7 @@
         let ele3 = document.getElementById("output");
         function textUppercase() {
             if (ele3.innerText == ele3.innerText.toUpperCase()) {
-                ele3.innerText = ele3.innerText.toLowerCase();
+                // ele3.innerText = ele3.innerText.toLowerCase();
             }
             else (ele3.innerText = ele3.innerText.toUpperCase())
         }
