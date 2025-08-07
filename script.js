@@ -36,7 +36,7 @@
         let ele4 = document.getElementById("output");
         function textLowercase() {
             if (ele4.innerText == ele4.innerText.toLowerCase()) {
-                ele4.innerText = ele4.innerText.toUpperCase();
+                // ele4.innerText = ele4.innerText.toUpperCase();
             }
             else (ele4.innerText = ele4.innerText.toLowerCase())
         }
